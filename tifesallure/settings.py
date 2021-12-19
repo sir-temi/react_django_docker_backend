@@ -100,10 +100,6 @@ if os.getenv('GITHUB_WORKFLOW'):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'github-actions',
-            'USER': 'postgres',
-            'PASSWORD': 'postgres',
-            'PORT': '5432'
         }
     }
 else:
