@@ -51,7 +51,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run migrations
       env:
-        POSTGRES_HOST: postgres
+        HOST: postgres
       run: |
         python3 manage.py migrate
     - name: Test with pytest
