@@ -103,6 +103,7 @@ if os.getenv('GITHUB_WORKFLOW'):
             'NAME': 'postgres',
             'USER': 'postgres',
             'PASSWORD': 'postgres',
+            'HOST': 'localhost',
             'PORT': '5432'
         }
     }
