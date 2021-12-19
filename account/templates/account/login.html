@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div>
+        <h1>Login with your details now</h1>
+        {% if message %}
+            <p style="color:{{color}}">{{message}}</p>
+        {% endif %}
+        <form method="POST">
+            {% csrf_token %}
+            <input name="username", placeholder="Username">
+            <input name="password", placeholder="Password">
+            <button type="submit">LOGIN</button>
+        </form>
+        <a href="{% url 'account:register' %}">Go to Register instead</a>
+    </div>
+</body>
+</html>

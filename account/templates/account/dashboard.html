@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    {% if jobs.length > 0 %}
+        <div>
+            {% for job in jobs %}
+                <ol>job</ol>
+            {% endfor %}
+        </div>
+    {% else %}
+        <h4>No ToDo, add below</h4>
+    {% endif %}
+    <br>
+    <br>
+    <div>
+        <h3>Add to do</h3>
+        <form method="POST">
+            {% csrf_token %}
+            <input name="todo", placeholder="Enter todo">
+            <button type="submit">ADD</button>
+        </form>
+    </div>
+</body>
+</html>
