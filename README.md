@@ -15,29 +15,8 @@ Before you begin, ensure you have the following installed:
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-## Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/sir-temi/react_django_docker_backend.git
-   cd react_django_docker_backend
-   ```
-
-2. Build and run the Docker containers:
-
-   ```bash
-   docker-compose up --build
-   ```
-
-   This command will start the React development server and Django backend server inside Docker containers.
-
-3. Access the application:
-   - Backend: The Django API server is accessible at `http://localhost:8000`.
-
 ## Project Structure
 - `/`: Houses the Django backend code.
-- `docker-compose.yml`: Configuration file for Docker Compose.
 
 ## Contributing
 
