@@ -1,6 +1,3 @@
-Certainly! Below is a basic README.md template for your GitHub repository. Feel free to customize it based on the specific details and features of your project.
-
-```markdown
 # React Django Docker Backend
 
 This repository contains the code for a full-stack web application built with React for the frontend, Django for the backend, and Docker for containerization.
@@ -55,4 +52,3 @@ Contributions are welcome! Please follow these guidelines:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
