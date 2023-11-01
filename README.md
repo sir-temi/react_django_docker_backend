@@ -1,6 +1,6 @@
 # React Django Docker Backend
 
-This repository contains the code for the backend of a full-stack web application built with React for the frontend, Django for the backend, and Docker for containerization.
+This repository contains the code for the backend of a full-stack web application built with React for the frontend, Django for the backend, and Docker for containerisation.
 
 ## Features
 
